@@ -21,3 +21,20 @@ let incr=10;
 let decr=10;
 console.log(incr++);
 console.log(decr++);
+/* let num=50;
+do {
+console.log(num);
+num++;
+}
+while (num<55); */
+let num=50;
+while (num<55){
+    console.log(num);
+    num++;
+}
+for (let i=1;i<10;i++){
+if(i===6){
+break;
+}
+console.log(i);
+}
